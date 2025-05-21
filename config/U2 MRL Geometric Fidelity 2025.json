@@ -1,0 +1,251 @@
+{
+    "comments": {
+        "author": "Tim Schakel",
+        "creator": "manual",
+        "description": "MRL Geometric Fidelity 7-slab, U2"
+    },
+    "metaformat": "20210819",
+    "results": {
+        "AcquisitionDateTime": {
+            "constraint_period": 7,
+            "description": "date and time of acquisition",
+            "display_level": 2,
+            "display_name": "DateTime",
+            "display_position": 0,
+            "units": "",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "p95 within DSV200": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "p95 within DSV200",
+            "display_position": 1,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                null,
+                1
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "p95 within DSV400": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "p95 within DSV400",
+            "display_position": 2,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                null,
+                2
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "p95 within DSV500": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "p95 within DSV500",
+            "display_position": 3,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                null,
+                3
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Max within DSV200": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "Max within DSV200",
+            "display_position": 4,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                null
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Max within DSV400": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "Max within DSV400",
+            "display_position": 5,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                2,
+                null
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Max within DSV500": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "Max within DSV500",
+            "display_position": 6,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                3,
+                null
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "p98 within DSV200 (system)": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "p98 within DSV200 (system)",
+            "display_position": 7,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                0.65,
+                0.75,
+                0.95,
+                1.05
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "p98 within DSV300 (system)": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "p98 within DSV300 (system)",
+            "display_position": 8,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                0.88,
+                0.98,
+                1.18,
+                1.28
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "p98 within DSV400 (system)": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "p98 within DSV400 (system)",
+            "display_position": 9,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                1.45,
+                1.55,
+                1.75,
+                1.85
+            ],
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "p98 within DSV500 (system)": {
+            "description": " ",
+            "display_level": "2",
+            "display_name": "p98 within DSV500 (system)",
+            "display_position": 10,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                2.86,
+                2.96,
+                3.16,
+                3.26
+            ],
+            "decimals": "",
+            "constraint_is_active": true
+        },
+        "Max within DSV200 (system)": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "Max within DSV200 (system)",
+            "display_position": 11,
+            "units": "mm",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Max within DSV300 (system)": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "Max within DSV300 (system)",
+            "display_position": 12,
+            "units": "mm",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Max within DSV400 (system)": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "Max within DSV400 (system)",
+            "display_position": 13,
+            "units": "mm",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Max within DSV500 (system)": {
+            "description": " ",
+            "display_level": 2,
+            "display_name": "Max within DSV500 (system)",
+            "display_position": 14,
+            "units": "mm",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Detected markers": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "Detected markers",
+            "display_position": 15,
+            "units": "",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Total DSV to 1 mm (3D)": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "Total DSV to 1 mm deviation (3D)",
+            "display_position": 16,
+            "units": "mm",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "Total DSV to 2 mm (3D)": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "Total DSV to 2 mm deviation (3D)",
+            "display_position": 17,
+            "units": "mm",
+            "decimals": null,
+            "constraint_is_active": true
+        },
+        "detectedPositions": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": "",
+            "decimals": null,
+            "constraint_is_active": true,
+            "display_position": null
+        },
+        "Histograms": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": "",
+            "decimals": null,
+            "constraint_is_active": true,
+            "display_position": null
+        }
+    }
+}

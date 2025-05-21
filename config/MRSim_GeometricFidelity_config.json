@@ -1,0 +1,19 @@
+{
+    "actions": {
+        "acqdatetime": {
+            "filters": {},
+            "params": {}
+        },
+        "MR_geomfidel_analysis": {
+            "filters": {},
+            "params": {}
+        }
+    },
+    "cfgformat": "20210820",
+    "comments": {
+        "author": "Tim Schakel, UMCU",
+        "creator": " ",
+        "description": "Geometric Fidelity  single slab phantom analysis",
+        "version": "20210820"
+    }
+}
